@@ -1,0 +1,36 @@
+.hs{
+    width: 1500px;
+    height: 900px;
+    border: 2px solid red;
+    background-image: url();
+    object-fit: cover;
+
+    header{
+        padding-top: 40px;
+        padding-left:28px;
+
+        .hederis{
+           width: 1100px;
+           display: flex;
+           align-items: center;
+
+           .tbc{
+            width: 170px;
+            padding-right: 50px;
+           }
+
+          ul{
+            width: 800px;
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid red;
+        }
+        a{
+           
+            font-size: 20px;
+        }
+        }
+        
+    }
+    
+}
