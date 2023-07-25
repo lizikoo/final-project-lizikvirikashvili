@@ -3,6 +3,9 @@
     padding-left: 28px;
     background-color: rgb(40, 37, 37);
     background-image: url(../images/gate.jpg);
+    width: 1530px;
+    height: 850px;
+    
 
     .hederis{
         display: flex;
@@ -36,8 +39,9 @@
             font-size: 75px;
             padding-top: 140px;
             padding-left: 100px;
-            padding-bottom: 30px;
-            color: #FFFFFF
+            padding-bottom: 35px;
+            color: #FFFFFF;
+            text-indent: 20px;
         }
     }
 
@@ -48,13 +52,33 @@
         height:55px;       
     }
     .input{
-        padding-bottom:300px;
+        padding-bottom:168px;
         padding-left: 100px;
     }
     .headerdiv{
-        border: 1px solid #000000;
-        opacity: 0.6000000238418579;
-        background-color:#000000;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width:1050px;
+       height: 200px;
+       border: 1px solid #000000;
+       opacity: 0.6000000238418579;
+       background-color:#000000;
+       margin-left: 450px;
+       border-radius: 5px;
+      
+       .div1{
+        padding-left: 20px;
+       }
+       
+
+      h6{
+        color: red;
+      }
+      h5{
+       color: #FFFFFF;
+      }
+   
     }
    
 }

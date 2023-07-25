@@ -66,6 +66,8 @@ a {
   padding-left: 28px;
   background-color: rgb(40, 37, 37);
   background-image: url(../images/gate.jpg);
+  width: 1530px;
+  height: 850px;
 }
 .all .hederis {
   display: -webkit-box;
@@ -101,8 +103,9 @@ a {
   font-size: 75px;
   padding-top: 140px;
   padding-left: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   color: #FFFFFF;
+  text-indent: 20px;
 }
 .all input {
   border-radius: 211px;
@@ -111,11 +114,33 @@ a {
   height: 55px;
 }
 .all .input {
-  padding-bottom: 300px;
+  padding-bottom: 168px;
   padding-left: 100px;
 }
 .all .headerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1050px;
+  height: 200px;
   border: 1px solid #000000;
   opacity: 0.6000000238;
   background-color: #000000;
+  margin-left: 450px;
+  border-radius: 5px;
+}
+.all .headerdiv .div1 {
+  padding-left: 20px;
+}
+.all .headerdiv h6 {
+  color: red;
+}
+.all .headerdiv h5 {
+  color: #FFFFFF;
 }/*# sourceMappingURL=global.css.map */
