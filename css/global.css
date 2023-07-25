@@ -61,41 +61,41 @@ a {
           box-sizing: border-box;
 }
 
-.hs {
-  width: 1500px;
-  height: 900px;
+header {
+  width: 1590px;
+  height: 400px;
   border: 2px solid red;
-  background-image: url();
-  -o-object-fit: cover;
-     object-fit: cover;
 }
-.hs header {
-  padding-top: 40px;
-  padding-left: 28px;
+header .background {
+  display: inline-block;
+  background-image: url(https://pixabay.com/photos/senbon-torii-torii-japanese-woman-6389421/?fbclid=IwAR3RbDkR6aR5KYWeb74LYctsuKKP2UanhGY7-NLtogwZTYCrlJVm4jPbNzc);
+  position: relative;
+  width: 1590px;
+  height: 900px;
 }
-.hs header .hederis {
-  width: 1100px;
+header .hederis {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 38px;
+  padding-left: 28px;
 }
-.hs header .hederis .tbc {
-  width: 170px;
+header .tbclogo {
+  width: 150px;
   padding-right: 50px;
 }
-.hs header .hederis ul {
-  width: 800px;
+header nav {
+  border: 2px solid red;
+  width: 600px;
+}
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 2px solid red;
-}
-.hs header .hederis a {
-  font-size: 20px;
 }/*# sourceMappingURL=global.css.map */
