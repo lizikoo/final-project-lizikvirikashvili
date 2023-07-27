@@ -65,9 +65,9 @@ a {
   padding-top: 48px;
   padding-left: 28px;
   background-color: rgb(40, 37, 37);
-  background-image: url(../images/gate.jpg);
+  background-image: url(../images/back2.png);
   width: 1530px;
-  height: 850px;
+  height: 820px;
 }
 .all .hederis {
   display: -webkit-box;
@@ -80,6 +80,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 40px;
 }
 .all .hederis .tbclogo {
   width: 150px;
@@ -96,26 +97,32 @@ a {
           justify-content: space-between;
 }
 .all .hederis nav ul a {
-  color: #FFFFFF;
+  color: #cfc8c8;
+  font-family: "BPG Arial", sans-serif;
 }
 .all .s-1 h1 {
-  width: 500px;
-  font-size: 75px;
+  width: 600px;
+  font-size: 77px;
+  font-family: "BPG Mrgvlovani", sans-serif;
   padding-top: 140px;
   padding-left: 100px;
   padding-bottom: 35px;
   color: #FFFFFF;
   text-indent: 20px;
 }
-.all input {
+.all input[type=button] {
   border-radius: 211px;
   background: rgb(217, 197, 197);
   width: 210px;
   height: 55px;
+  color: black;
+  font-size: 15px;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  cursor: pointer;
 }
 .all .input {
-  padding-bottom: 168px;
-  padding-left: 100px;
+  padding-bottom: 161px;
+  padding-left: 105px;
 }
 .all .headerdiv {
   display: -webkit-box;
@@ -128,12 +135,12 @@ a {
       -ms-flex-align: center;
           align-items: center;
   width: 1050px;
-  height: 200px;
+  height: 174px;
   border: 1px solid #000000;
   opacity: 0.6000000238;
   background-color: #000000;
   margin-left: 450px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 .all .headerdiv .div1 {
   padding-left: 20px;
@@ -143,4 +150,61 @@ a {
 }
 .all .headerdiv h5 {
   color: #FFFFFF;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+}
+
+.s-2div {
+  background-image: url(../images/done.jpg);
+  width: 1530px;
+  height: 1400px;
+}
+.s-2div .img1 {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+}
+.s-2div .wrap1 {
+  border: 2px solid red;
+  padding-top: 140px;
+  width: 1030px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 210px;
+}
+.s-2div .wrap1 .wrap11 {
+  width: 440px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s-2div .wrap1 .wrap11 h3 {
+  font-size: 35px;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 1px;
+}
+.s-2div .wrap1 .wrap11 h6 {
+  color: #E0E0E0;
+  font-size: 17px;
+}
+.s-2div .wrap1 .wrap11 input {
+  border-radius: 32px;
+  background-color: #DD2242;
+  width: 210px;
+  height: 50px;
+  color: black;
+  font-size: 18px;
 }/*# sourceMappingURL=global.css.map */
