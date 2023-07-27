@@ -67,7 +67,7 @@
        justify-content: space-between;
        align-items: center;
        width:1050px;
-       height: 174px;
+       height: 176px;
        border: 1px solid #000000;
        opacity: 0.6000000238418579;
        background-color:#000000;
@@ -116,7 +116,7 @@
 
     }
     .wrap1{
-        border: 2px solid red;
+       
         padding-top:140px;
         width: 1030px;
         display: flex;
@@ -125,8 +125,8 @@
         margin-left: 210px;
 
        .wrap11{
-        width: 440px;
-        height: 250px;
+        width: 480px;
+        height: 300px;
         display: flex;
         padding-top: 30px;
         flex-direction: column;
@@ -138,18 +138,22 @@
             color: #FFFFFF;
             margin-bottom: 1px;
         }
-        h6{
-            color: #E0E0E0;
+        p{
+            color: #bab5b5;
             font-size: 17px;
+            font-family: "ALK Rounded Nusx Med", sans-serif;
         }
 
         input {
             border-radius: 32px;
-            background-color: #DD2242;
+            background-color: #f4c9d0;
             width: 210px;
             height:50px;   
             color:black;
-            font-size: 18px; 
+            cursor: pointer;
+            font-size: 20px; 
+            font-family: "ALK Rounded Nusx Med", sans-serif;
+           
         }
        }
 
