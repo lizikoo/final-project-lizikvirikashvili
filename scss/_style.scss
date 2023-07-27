@@ -16,12 +16,18 @@
 
         .tbclogo{
             width: 150px;
+            cursor: pointer;
         }
+
         nav{
             width: 650px;
             ul{
                 display: flex;
                 justify-content: space-between;
+            
+                li{
+                    cursor: pointer;
+                }
 
                 a{
                    color: #cfc8c8;
@@ -56,7 +62,7 @@
         color: black;
         font-size: 15px;
         font-family: "ALK Rounded Nusx Med", sans-serif;
-        cursor: pointer;     
+        cursor: pointer; 
     }
     .input{
         padding-bottom:161px;
@@ -126,9 +132,9 @@
 
        .wrap11{
         width: 480px;
-        height: 300px;
+        height: 270px;
         display: flex;
-        padding-top: 30px;
+        padding-top: 25px;
         flex-direction: column;
         justify-content: space-between;
 

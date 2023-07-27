@@ -84,6 +84,7 @@ a {
 }
 .all .hederis .tbclogo {
   width: 150px;
+  cursor: pointer;
 }
 .all .hederis nav {
   width: 650px;
@@ -95,6 +96,9 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.all .hederis nav ul li {
+  cursor: pointer;
 }
 .all .hederis nav ul a {
   color: #cfc8c8;
@@ -176,11 +180,11 @@ a {
 }
 .s-2div .wrap1 .wrap11 {
   width: 480px;
-  height: 300px;
+  height: 270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 30px;
+  padding-top: 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
