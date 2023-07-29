@@ -17,6 +17,11 @@
         .tbclogo{
             width: 150px;
             cursor: pointer;
+            
+        &:hover{
+            width: 155px;
+            cursor: pointer;
+        }
         }
 
         nav{
@@ -27,13 +32,21 @@
             
                 li{
                     cursor: pointer;
+                    
+                a{
+                    color: #cfc8c8;
+                    font-family: "BPG Arial", sans-serif;
+                    &:hover{
+                     color: #3663ab;
+                     font-size: 17px;
+                     font-family: "BPG Arial", sans-serif;
+
+                     
+                  }
+                    
+                 }
                 }
 
-                a{
-                   color: #cfc8c8;
-                   font-family: "BPG Arial", sans-serif;
-                   
-                }
             }
         }
     }
@@ -177,5 +190,45 @@
 .s-3div{
     background-image: url(../images/done2.png);
     width: 1530px;
-    height: 900px;
+    height: 1125px;
+
+    .sectiondiv{
+        opacity: 0.8999999761581421;
+        background-color: #020C21;
+        width: 1529px;
+        height: 400px;
+        
+        border: 2px solid red;
+        h1{
+            color: #cfc8c8;
+            font-size: 25px;
+            font-family: "BPG Mrgvlovani", sans-serif;
+            padding-left:515px;
+            margin-bottom: 20px;
+        }
+        h5{
+            color: #e8a9a9;
+            font-size: 16px;
+            font-family: "ALK Rounded Nusx Med", sans-serif;
+            width:1070px;
+            text-align: center;
+            padding-left: 370px;
+            margin-bottom: 30px;
+
+        }
+
+        .wrapping{
+            display: flex;
+            width: 1200px;
+            align-items: center;
+            padding-left: 400px;
+            h6{
+                color: #cfc8c8;
+                font-size: 18px;
+                font-family: "ALK Rounded Nusx Med", sans-serif;
+            }
+        }
+        
+
+    }     
 }
