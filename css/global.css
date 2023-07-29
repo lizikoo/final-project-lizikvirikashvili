@@ -228,42 +228,43 @@ a {
   background-image: url(../images/done2.png);
   width: 1530px;
   height: 1125px;
+  padding-top: 723px;
 }
-.s-3div .sectiondiv {
+.s-3div .box {
   opacity: 0.8999999762;
   background-color: #020C21;
   width: 1529px;
   height: 400px;
-  border: 2px solid red;
+  padding-top: 50px;
 }
-.s-3div .sectiondiv h1 {
+.s-3div .box h3 {
   color: #cfc8c8;
-  font-size: 25px;
+  font-size: 32px;
   font-family: "BPG Mrgvlovani", sans-serif;
-  padding-left: 515px;
+  padding-left: 490px;
   margin-bottom: 20px;
 }
-.s-3div .sectiondiv h5 {
+.s-3div .box p {
   color: #e8a9a9;
-  font-size: 16px;
+  font-size: 17px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
   width: 1070px;
   text-align: center;
-  padding-left: 370px;
+  padding-left: 400px;
   margin-bottom: 30px;
 }
-.s-3div .sectiondiv .wrapping {
+.s-3div .box .wrapping {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1200px;
+  width: 1220px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 400px;
+  padding-left: 410px;
 }
-.s-3div .sectiondiv .wrapping h6 {
+.s-3div .box .wrapping h6 {
   color: #cfc8c8;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }/*# sourceMappingURL=global.css.map */
