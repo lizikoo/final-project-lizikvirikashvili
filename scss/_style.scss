@@ -256,9 +256,12 @@
     //   background: rgb(2,0,36);
     //   background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
 
-    background: rgb(2,0,36);
-    background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
+    // background: rgb(2,0,36);
+    // background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
     
+
+    background: rgb(0,18,55);
+background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 79%);
     .container{
         max-width: 1440px;
         width: 100%;
@@ -316,3 +319,6 @@
        }
     }
 }
+
+
+

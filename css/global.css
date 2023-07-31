@@ -275,9 +275,9 @@ a {
 .s-4div {
   width: 1530px;
   height: 1200px;
-  background: rgb(2, 0, 36);
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(18%, rgb(2, 0, 36)), color-stop(89%, rgba(9, 15, 121, 0.7008053221)));
-  background: linear-gradient(360deg, rgb(2, 0, 36) 18%, rgba(9, 15, 121, 0.7008053221) 89%);
+  background: rgb(0, 18, 55);
+  background: -webkit-gradient(linear, left top, right top, color-stop(16%, rgb(0, 18, 55)), color-stop(79%, rgb(20, 60, 130)));
+  background: linear-gradient(90deg, rgb(0, 18, 55) 16%, rgb(20, 60, 130) 79%);
 }
 .s-4div .container {
   max-width: 1440px;
