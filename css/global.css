@@ -267,4 +267,80 @@ a {
   color: #cfc8c8;
   font-size: 20px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
+}
+.s-3div .box .wrapping h6 i:first-child {
+  color: #eb7575;
+}
+
+.s-4div {
+  width: 1530px;
+  height: 1200px;
+  background: rgb(2, 0, 36);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(18%, rgb(2, 0, 36)), color-stop(89%, rgba(9, 15, 121, 0.7008053221)));
+  background: linear-gradient(360deg, rgb(2, 0, 36) 18%, rgba(9, 15, 121, 0.7008053221) 89%);
+}
+.s-4div .container {
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 250px;
+}
+.s-4div .container h2 {
+  padding-left: 130px;
+  text-align: center;
+  font-size: 33px;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  color: var(--colors-white, #dabbbb);
+  width: 820px;
+}
+.s-4div .container video {
+  border-radius: 15px;
+  margin-bottom: 70px;
+}
+.s-4div .container .bigwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1070px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s-4div .container .bigwrap .wrapping1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.s-4div .container .bigwrap .wrapping1 .myimg {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.s-4div .container .bigwrap .wrapping1 .myimg1 {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.s-4div .container .bigwrap .wrapping1 .wrapping11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 210px;
+}
+.s-4div .container .bigwrap .wrapping1 .wrapping11 h4 {
+  color: var(--colors-white, #d3a4a4);
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: "BPG Mrgvlovani", sans-serif;
+}
+.s-4div .container .bigwrap .wrapping1 .wrapping11 h5 {
+  font-size: 16px;
+  color: #cfc8c8;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
 }/*# sourceMappingURL=global.css.map */

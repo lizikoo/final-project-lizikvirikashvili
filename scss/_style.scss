@@ -228,8 +228,91 @@
                 font-size: 20px;
                 font-family: "ALK Rounded Nusx Med", sans-serif;
             }
+            h6 i:first-child{
+                color: #eb7575;
+            }
         }
         
 
     }     
+}
+
+
+
+
+
+
+
+
+
+
+.s-4div{
+    // background-image: url(../images/done3.jpg);
+    width: 1530px;
+    height: 1200px;
+    // background-color: #797c99;
+//    background: rgb(2,0,36);
+//    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.7008053221288515) 89%);
+    //   background: rgb(2,0,36);
+    //   background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
+
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
+    
+    .container{
+        max-width: 1440px;
+        width: 100%;
+        padding-top:100px;
+        padding-left: 250px;
+       
+        h2{
+            padding-left: 130px;
+            text-align: center;
+            font-size: 33px;
+            font-family: "BPG Mrgvlovani", sans-serif;
+            color: var(--colors-white, #dabbbb);
+            width:820px;
+        }
+        video{
+          border-radius: 15px;
+          margin-bottom: 70px;
+        }
+       .bigwrap{
+        display: flex;
+        width: 1070px;
+        justify-content: space-between;
+        .wrapping1{
+            display: flex;
+           
+         .myimg{
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+         }
+         .myimg1{
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+         }
+         .wrapping11{
+            display: flex;
+            flex-direction: column;
+            width: 210px;
+            h4{
+                color: var(--colors-white, #d3a4a4);
+                font-size: 20px;
+                margin-bottom: 30px;
+                font-family: "BPG Mrgvlovani", sans-serif;
+            }
+            h5{
+              font-size: 16px;
+              color: #cfc8c8;
+              font-family: "ALK Rounded Nusx Med", sans-serif;
+            }
+         }
+        }
+       }
+    }
 }
