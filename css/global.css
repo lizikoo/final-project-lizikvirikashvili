@@ -274,7 +274,7 @@ a {
 
 .s-4div {
   width: 1530px;
-  height: 1200px;
+  height: 1300px;
   background: rgb(0, 18, 55);
   background: -webkit-gradient(linear, left top, right top, color-stop(16%, rgb(0, 18, 55)), color-stop(79%, rgb(20, 60, 130)));
   background: linear-gradient(90deg, rgb(0, 18, 55) 16%, rgb(20, 60, 130) 79%);
@@ -287,6 +287,7 @@ a {
 }
 .s-4div .container h2 {
   padding-left: 130px;
+  padding-top: 50px;
   text-align: center;
   font-size: 33px;
   font-family: "BPG Mrgvlovani", sans-serif;
