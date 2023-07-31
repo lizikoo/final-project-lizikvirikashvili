@@ -276,8 +276,8 @@ a {
   width: 1530px;
   height: 1300px;
   background: rgb(0, 18, 55);
-  background: -webkit-gradient(linear, left top, right top, color-stop(16%, rgb(0, 18, 55)), color-stop(79%, rgb(20, 60, 130)));
-  background: linear-gradient(90deg, rgb(0, 18, 55) 16%, rgb(20, 60, 130) 79%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(16%, rgb(0, 18, 55)), color-stop(46%, rgb(20, 60, 130)));
+  background: linear-gradient(90deg, rgb(0, 18, 55) 16%, rgb(20, 60, 130) 46%);
 }
 .s-4div .container {
   max-width: 1440px;
