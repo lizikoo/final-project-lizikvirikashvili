@@ -3,17 +3,19 @@
     padding-left: 28px;
     background-color: rgb(40, 37, 37);
     background-image: url(../images/back2.png);
-    width: 1530px;
+     width:  1530px;
     height: 820px;
     
 
     .hederis{
         display: flex;
-        width: 900px;
+        width:1380px;
         justify-content: space-between;
         align-items: center;
         padding-left: 40px;
 
+
+       
         .tbclogo{
             width: 150px;
             cursor: pointer;
@@ -26,6 +28,7 @@
 
         nav{
             width: 650px;
+            margin-right: 400px;
             ul{
                 display: flex;
                 justify-content: space-between;
@@ -77,6 +80,17 @@
         font-size: 15px;
         font-family: "ALK Rounded Nusx Med", sans-serif;
         cursor: pointer; 
+
+       &:hover{
+            border-radius: 211px;
+            background: rgb(214, 186, 186);
+            width: 210px;
+            height:55px;  
+            color: black;
+            font-size: 15px;
+            font-family: "ALK Rounded Nusx Med", sans-serif;
+            cursor: pointer; 
+        }
     }
     .input{
         padding-bottom:161px;
@@ -124,16 +138,10 @@
     width: 1530px;
     height: 1450px;
 
-    
-
-
     .img1{
         width: 450px;
         height: 300px;
         border-radius: 10px;
-       
-       
-
     }
     .wrap1{
        
@@ -141,7 +149,6 @@
         width: 1030px;
         display: flex;
         justify-content: space-between;
-       
         margin-left: 210px;
 
        .wrap11{
@@ -173,6 +180,19 @@
             cursor: pointer;
             font-size: 20px; 
             font-family: "ALK Rounded Nusx Med", sans-serif;
+
+            
+        &:hover {
+            border-radius: 32px;
+            background-color: #d68b97;
+            width: 210px;
+            height:50px;   
+            color:black;
+            cursor: pointer;
+            font-size: 20px; 
+            font-family: "ALK Rounded Nusx Med", sans-serif;
+           
+        }
            
         }
        }
@@ -185,6 +205,8 @@
 
 
   
+
+
 
 
 .s-3div{
@@ -249,7 +271,7 @@
 .s-4div{
     // background-image: url(../images/done3.jpg);
     width: 1530px;
-    height: 1300px;
+    height: 1400px;
     // background-color: #797c99;
 //    background: rgb(2,0,36);
 //    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.7008053221288515) 89%);
@@ -263,12 +285,13 @@
     // background: rgb(0,18,55);
     // background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 79%);
     background: rgb(0,18,55);
-background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 46%);
+    background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 46%);
     .container{
         max-width: 1440px;
         width: 100%;
         padding-top:100px;
         padding-left: 250px;
+        margin-bottom: 77px;
        
         h2{
             padding-left: 130px;
@@ -277,7 +300,7 @@ background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 46%);
             font-size: 33px;
             font-family: "BPG Mrgvlovani", sans-serif;
             color: var(--colors-white, #dabbbb);
-            width:820px;
+            width:850px;
         }
         video{
           border-radius: 15px;
@@ -325,3 +348,85 @@ background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 46%);
 
 
 
+
+
+
+
+
+
+footer{
+    
+    .footer{
+        background-color: #010714;
+        border: 1px solid black;
+        max-width: 1530px;
+        width: 100%;
+        height:140px;
+
+        .wholediv{
+            display: flex;
+            width: 1350px;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 40px;
+            padding-left: 70px;
+        }
+
+        .footerdiv1{
+            display: flex;
+            align-items: center;
+            width: 620px;
+            justify-content: space-between;
+
+            .tbclogo{
+                width: 140px;
+                cursor: pointer;
+                
+            &:hover{
+                width: 145px;
+                cursor: pointer;
+            }
+            }
+            nav{
+                width: 430px;
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                        
+                a{
+                    color: #cfc8c8;
+                    font-family: "BPG Arial", sans-serif;
+                    &:hover{
+                     color: #3663ab;
+                     font-size: 17px;
+                     font-family: "BPG Arial", sans-serif;
+
+                     
+                  }
+                    
+                 }
+               
+                }
+            }
+        }
+
+
+        .footerdiv2{
+            display: flex;
+            width: 300px;
+            justify-content: space-between;
+
+          a{
+            font-size: 18px;
+            font-family: 'REM', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            h6{
+                color: #dabbbb;
+               
+            }
+
+          }
+           
+        }
+    }
+}
