@@ -3,13 +3,14 @@
     padding-left: 28px;
     background-color: rgb(40, 37, 37);
     background-image: url(../images/back2.png);
-     width:  1530px;
+    width: 1530px;
     height: 820px;
     
 
-    .hederis{
+    .container{
         display: flex;
-        width:1380px;
+        max-width:1380px;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
         padding-left: 40px;
@@ -27,9 +28,11 @@
         }
 
         nav{
-            width: 650px;
+            max-width: 650px;
+            width: 100%;
             margin-right: 400px;
             ul{
+                width: 100%;
                 display: flex;
                 justify-content: space-between;
             
@@ -430,3 +433,39 @@ footer{
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+// viwyeb meore gverds!!!!!!!!
+
+.all{
+    .s-5div{
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 150px;
+
+            h2{
+                font-size: 40px;
+                color:#cfc8c8;
+                font-family: "BPG Mrgvlovani", sans-serif;
+
+            }
+            p{
+                font-size: 20px;
+                color: #6b6666;
+            }
+        }
+    }
+}
+
+
+

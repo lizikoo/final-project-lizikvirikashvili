@@ -69,11 +69,12 @@ a {
   width: 1530px;
   height: 820px;
 }
-.all .hederis {
+.all .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1380px;
+  max-width: 1380px;
+  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -82,19 +83,21 @@ a {
           align-items: center;
   padding-left: 40px;
 }
-.all .hederis .tbclogo {
+.all .container .tbclogo {
   width: 150px;
   cursor: pointer;
 }
-.all .hederis .tbclogo:hover {
+.all .container .tbclogo:hover {
   width: 155px;
   cursor: pointer;
 }
-.all .hederis nav {
-  width: 650px;
+.all .container nav {
+  max-width: 650px;
+  width: 100%;
   margin-right: 400px;
 }
-.all .hederis nav ul {
+.all .container nav ul {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,14 +105,14 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.all .hederis nav ul li {
+.all .container nav ul li {
   cursor: pointer;
 }
-.all .hederis nav ul li a {
+.all .container nav ul li a {
   color: #cfc8c8;
   font-family: "BPG Arial", sans-serif;
 }
-.all .hederis nav ul li a:hover {
+.all .container nav ul li a:hover {
   color: #3663ab;
   font-size: 17px;
   font-family: "BPG Arial", sans-serif;
@@ -445,4 +448,27 @@ footer .footer .footerdiv2 a {
 }
 footer .footer .footerdiv2 a h6 {
   color: #dabbbb;
+}
+
+.all .s-5div .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 150px;
+}
+.all .s-5div .container h2 {
+  font-size: 40px;
+  color: #cfc8c8;
+  font-family: "BPG Mrgvlovani", sans-serif;
+}
+.all .s-5div .container p {
+  font-size: 20px;
+  color: #6b6666;
 }/*# sourceMappingURL=global.css.map */
