@@ -72,7 +72,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1380px;
+  max-width: 1370px;
   width: 100%;
   margin: 0 auto;
   -webkit-box-pack: justify;
@@ -91,7 +91,7 @@ a {
   cursor: pointer;
 }
 .all .container nav {
-  max-width: 650px;
+  max-width: 550px;
   width: 100%;
   margin-right: 400px;
 }
@@ -288,7 +288,11 @@ a {
   width: 900px;
   margin: 0 auto;
   padding-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 280px;
+}
+.s-3div .container-s3 .slider img {
+  width: 200px;
+  height: 300px;
 }
 .s-3div .container-s3 .box {
   opacity: 0.8999999762;
@@ -506,6 +510,31 @@ footer .footer .footerdiv2 a h6 {
   font-family: "BPG Mrgvlovani", sans-serif;
 }
 .all .s-5div .container p {
+  font-size: 20px;
+  color: #6b6666;
+}
+
+.all .s-6div .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px;
+  height: 240px;
+  padding-top: 150px;
+}
+.all .s-6div .container h2 {
+  font-size: 40px;
+  color: #cfc8c8;
+  font-family: "BPG Mrgvlovani", sans-serif;
+}
+.all .s-6div .container p {
   font-size: 20px;
   color: #6b6666;
 }/*# sourceMappingURL=global.css.map */

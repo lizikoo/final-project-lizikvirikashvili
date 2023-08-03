@@ -8,7 +8,7 @@
 
     .container{
         display: flex;
-        max-width:1380px;
+        max-width:1370px;
         width: 100%;
         margin: 0 auto;
         justify-content: space-between;
@@ -27,7 +27,7 @@
         }
 
         nav{
-            max-width: 650px;
+            max-width: 550px;
             width: 100%;
             margin-right: 400px;
             ul{
@@ -241,11 +241,13 @@
         width: 900px;
         margin: 0 auto;
         padding-top: 100px;
-        margin-bottom:200px ;
+        margin-bottom:280px ;
+
+        img{
+            width: 200px;
+            height: 300px;
+        }
     }
-
-
-
    
     .box{
         opacity: 0.8999999761581421;
@@ -472,10 +474,41 @@ footer{
 
 
 
+
+
 // viwyeb meore gverds!!!!!!!!
 
 .all{
     .s-5div{
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 700px;
+            height: 240px;
+            padding-top: 150px;
+           
+
+            h2{
+                font-size: 40px;
+                color:#cfc8c8;
+                font-family: "BPG Mrgvlovani", sans-serif;
+
+            }
+            p{
+                font-size: 20px;
+                color: #6b6666;
+            }
+        }
+    }
+}
+
+
+
+// mesame gverdi
+
+.all{
+    .s-6div{
         .container{
             display: flex;
             flex-direction: column;
