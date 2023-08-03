@@ -63,7 +63,6 @@ a {
 
 .all {
   padding-top: 48px;
-  padding-left: 28px;
   background-color: rgb(40, 37, 37);
   background-image: url(../images/back2.png);
   width: 1530px;
@@ -75,13 +74,13 @@ a {
   display: flex;
   max-width: 1380px;
   width: 100%;
+  margin: 0 auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 40px;
 }
 .all .container .tbclogo {
   width: 150px;
@@ -117,6 +116,11 @@ a {
   font-size: 17px;
   font-family: "BPG Arial", sans-serif;
 }
+.all .s-1 .container-s1 {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+}
 .all .s-1 h1 {
   width: 600px;
   font-size: 77px;
@@ -151,6 +155,14 @@ a {
   padding-bottom: 161px;
   padding-left: 105px;
 }
+.all .parent-headerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 .all .headerdiv {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,7 +178,6 @@ a {
   border: 1px solid #000000;
   opacity: 0.6000000238;
   background-color: #000000;
-  margin-left: 450px;
   border-radius: 4px;
 }
 .all .headerdiv .div1 {
@@ -185,13 +196,29 @@ a {
   width: 1530px;
   height: 1450px;
 }
-.s-2div .img1 {
+.s-2div .container-s2 {
+  max-width: 1030px;
+  width: 100%;
+  height: 1300px;
+  padding-top: 140px;
+  margin-left: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s-2div .container-s2 .img1 {
   width: 450px;
   height: 300px;
   border-radius: 10px;
 }
-.s-2div .wrap1 {
-  padding-top: 140px;
+.s-2div .container-s2 .wrap1 {
   width: 1030px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,9 +226,8 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 210px;
 }
-.s-2div .wrap1 .wrap11 {
+.s-2div .container-s2 .wrap1 .wrap11 {
   width: 480px;
   height: 270px;
   display: -webkit-box;
@@ -216,18 +242,18 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.s-2div .wrap1 .wrap11 h3 {
+.s-2div .container-s2 .wrap1 .wrap11 h3 {
   font-size: 35px;
   font-family: "BPG Mrgvlovani", sans-serif;
   color: #FFFFFF;
   margin-bottom: 1px;
 }
-.s-2div .wrap1 .wrap11 p {
+.s-2div .container-s2 .wrap1 .wrap11 p {
   color: #bab5b5;
   font-size: 17px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }
-.s-2div .wrap1 .wrap11 input {
+.s-2div .container-s2 .wrap1 .wrap11 input {
   border-radius: 32px;
   background-color: #f4c9d0;
   width: 210px;
@@ -237,7 +263,7 @@ a {
   font-size: 20px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }
-.s-2div .wrap1 .wrap11 input:hover {
+.s-2div .container-s2 .wrap1 .wrap11 input:hover {
   border-radius: 32px;
   background-color: #d68b97;
   width: 210px;
@@ -252,23 +278,33 @@ a {
   background-image: url(../images/done2.png);
   width: 1530px;
   height: 1125px;
-  padding-top: 723px;
 }
-.s-3div .box {
+.s-3div .container-s3 {
+  max-width: 1529px;
+  width: 100%;
+  height: 1000px;
+}
+.s-3div .container-s3 .slider {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-bottom: 200px;
+}
+.s-3div .container-s3 .box {
   opacity: 0.8999999762;
   background-color: #020C21;
   width: 1529px;
   height: 400px;
   padding-top: 50px;
 }
-.s-3div .box h3 {
+.s-3div .container-s3 .box h3 {
   color: #cfc8c8;
   font-size: 32px;
   font-family: "BPG Mrgvlovani", sans-serif;
   padding-left: 490px;
   margin-bottom: 20px;
 }
-.s-3div .box p {
+.s-3div .container-s3 .box p {
   color: #e8a9a9;
   font-size: 17px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
@@ -277,7 +313,7 @@ a {
   padding-left: 400px;
   margin-bottom: 30px;
 }
-.s-3div .box .wrapping {
+.s-3div .container-s3 .box .wrapping {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,12 +323,12 @@ a {
           align-items: center;
   padding-left: 410px;
 }
-.s-3div .box .wrapping h6 {
+.s-3div .container-s3 .box .wrapping h6 {
   color: #cfc8c8;
   font-size: 20px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }
-.s-3div .box .wrapping h6 i:first-child {
+.s-3div .container-s3 .box .wrapping h6 i:first-child {
   color: #eb7575;
 }
 
@@ -374,16 +410,14 @@ a {
 footer .footer {
   background-color: #010714;
   border: 1px solid black;
-  max-width: 1530px;
-  width: 100%;
+  width: 1530px;
   height: 140px;
 }
 footer .footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1350px;
-  width: 100%;
+  width: 1350px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
