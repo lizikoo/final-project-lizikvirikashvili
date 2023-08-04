@@ -1,173 +1,151 @@
-.all{
-    padding-top: 48px;
-    background-color: rgb(40, 37, 37);
-    background-image: url(../images/back2.png);
-    width: 1530px;
-    height: 820px;
-    
+.all {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  background-image: url(../images/back2.png);
+  width: 1530px;
+  height: 820px;
 
-    .container{
-        display: flex;
-        max-width:1370px;
+  .container {
+    display: flex;
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .tbclogo {
+      width: 150px;
+      cursor: pointer;
+
+      &:hover {
+        width: 155px;
+        cursor: pointer;
+      }
+    }
+
+    nav {
+      max-width: 550px;
+      width: 100%;
+      margin-right: 400px;
+      ul {
         width: 100%;
-        margin: 0 auto;
-        justify-content: space-between;
-        align-items: center;
-
-
-       
-        .tbclogo{
-            width: 150px;
-            cursor: pointer;
-            
-        &:hover{
-            width: 155px;
-            cursor: pointer;
-        }
-        }
-
-        nav{
-            max-width: 550px;
-            width: 100%;
-            margin-right: 400px;
-            ul{
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-            
-                li{
-                    cursor: pointer;
-                    
-                a{
-                    color: #cfc8c8;
-                    font-family: "BPG Arial", sans-serif;
-                    &:hover{
-                     color: #3663ab;
-                     font-size: 17px;
-                     font-family: "BPG Arial", sans-serif;
-
-                     
-                  }
-                    
-                 }
-                }
-
-            }
-        }
-    }
-
-
-
-
-
-    .s-1{
-        .container-s1 {
-            max-width: 1380px;
-            width: 100%;
-            margin: 0 auto;
-        }
-        h1{
-            width:600px;
-            font-size: 77px;
-            font-family: "BPG Mrgvlovani", sans-serif;
-            padding-top: 140px;
-            padding-left: 100px;
-            padding-bottom: 35px;
-            color: #FFFFFF;
-            text-indent: 20px;
-        }
-    }
-
-    input[type=button]{
-        border-radius: 211px;
-        background: rgb(217, 197, 197);
-        width: 210px;
-        height:55px;  
-        color: black;
-        font-size: 15px;
-        font-family: "ALK Rounded Nusx Med", sans-serif;
-        cursor: pointer; 
-
-       &:hover{
-            border-radius: 211px;
-            background: rgb(214, 186, 186);
-            width: 210px;
-            height:55px;  
-            color: black;
-            font-size: 15px;
-            font-family: "ALK Rounded Nusx Med", sans-serif;
-            cursor: pointer; 
-        }
-    }
-    .input{
-        padding-bottom:161px;
-        padding-left: 105px;
-    }
-    .parent-headerdiv {
         display: flex;
-        justify-content: flex-end;
-    }
-    .headerdiv{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       width:1050px;
-       height: 176px;
-       border: 1px solid #000000;
-       opacity: 0.6000000238418579;
-       background-color:#000000;
-       border-radius: 4px;
-      
-       .div1{
-        padding-left: 20px;
-       }
-       
+        justify-content: space-between;
 
-      h6{
-        color: red;
+        li {
+          cursor: pointer;
+
+          a {
+            color: #cfc8c8;
+            font-family: "BPG Arial", sans-serif;
+            &:hover {
+              color: #3663ab;
+              font-size: 17px;
+              font-family: "BPG Arial", sans-serif;
+            }
+          }
+        }
       }
-      h5{
-       color: #FFFFFF;
-       font-family: "ALK Rounded Nusx Med", sans-serif;
-      }
-   
     }
-   
+  }
+
+  .s-1 {
+    .container-s1 {
+      max-width: 1380px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    h1 {
+      width: 600px;
+      font-size: 77px;
+      font-family: "BPG Mrgvlovani", sans-serif;
+      padding-top: 140px;
+      padding-left: 100px;
+      padding-bottom: 35px;
+      color: #ffffff;
+      text-indent: 20px;
+    }
+  }
+
+  input[type="button"] {
+    border-radius: 211px;
+    background: rgb(217, 197, 197);
+    width: 210px;
+    height: 55px;
+    color: black;
+    font-size: 15px;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 211px;
+      background: rgb(214, 186, 186);
+      width: 210px;
+      height: 55px;
+      color: black;
+      font-size: 15px;
+      font-family: "ALK Rounded Nusx Med", sans-serif;
+      cursor: pointer;
+    }
+  }
+  .input {
+    padding-bottom: 161px;
+    padding-left: 105px;
+  }
+  .parent-headerdiv {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+    height: 176px;
+    border: 1px solid #000000;
+    opacity: 0.6000000238418579;
+    background-color: #000000;
+    border-radius: 4px;
+
+    .div1 {
+      padding-left: 20px;
+    }
+
+    h6 {
+      color: red;
+    }
+    h5 {
+      color: #ffffff;
+      font-family: "ALK Rounded Nusx Med", sans-serif;
+    }
+  }
 }
 
+.s-2div {
+  background-image: url(../images/done.jpg);
+  width: 1530px;
+  height: 1450px;
 
-
-
-
-
-
-
-
-.s-2div{
-    background-image:  url(../images/done.jpg);
-    width: 1530px;
-    height: 1450px;
-
-    .container-s2{
-        max-width: 1030px;
-        width: 100%;
-        height: 1300px;
-        padding-top: 140px;
-        margin-left: 210px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    .img1{
-        width: 450px;
-        height: 300px;
-        border-radius: 10px;
+  .container-s2 {
+    max-width: 1030px;
+    width: 100%;
+    height: 1300px;
+    padding-top: 140px;
+    margin-left: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .img1 {
+      width: 450px;
+      height: 300px;
+      border-radius: 10px;
     }
-    .wrap1{
-        width: 1030px;
-        display: flex;
-        justify-content: space-between;
+    .wrap1 {
+      width: 1030px;
+      display: flex;
+      justify-content: space-between;
 
-       .wrap11{
+      .wrap11 {
         width: 480px;
         height: 270px;
         display: flex;
@@ -175,359 +153,532 @@
         flex-direction: column;
         justify-content: space-between;
 
-        h3{
-            font-size: 35px;
-            font-family: "BPG Mrgvlovani", sans-serif;
-            color: #FFFFFF;
-            margin-bottom: 1px;
+        h3 {
+          font-size: 35px;
+          font-family: "BPG Mrgvlovani", sans-serif;
+          color: #ffffff;
+          margin-bottom: 1px;
         }
-        p{
-            color: #bab5b5;
-            font-size: 17px;
-            font-family: "ALK Rounded Nusx Med", sans-serif;
+        p {
+          color: #bab5b5;
+          font-size: 17px;
+          font-family: "ALK Rounded Nusx Med", sans-serif;
         }
 
         input {
-            border-radius: 32px;
-            background-color: #f4c9d0;
-            width: 210px;
-            height:50px;   
-            color:black;
-            cursor: pointer;
-            font-size: 20px; 
-            font-family: "ALK Rounded Nusx Med", sans-serif;
+          border-radius: 32px;
+          background-color: #f4c9d0;
+          width: 210px;
+          height: 50px;
+          color: black;
+          cursor: pointer;
+          font-size: 20px;
+          font-family: "ALK Rounded Nusx Med", sans-serif;
 
-            
-        &:hover {
+          &:hover {
             border-radius: 32px;
             background-color: #d68b97;
             width: 210px;
-            height:50px;   
-            color:black;
+            height: 50px;
+            color: black;
             cursor: pointer;
-            font-size: 20px; 
+            font-size: 20px;
             font-family: "ALK Rounded Nusx Med", sans-serif;
-           
-        }
-           
-        }
-       }
-
-
-    }
-}
-
-}
-
-
-
-  
-
-
-
-
-.s-3div{
-    background-image: url(../images/done2.png);
-    width: 1530px;
-    height: 1125px;
-   
-   
-    .container-s3{
-
-        max-width: 1529px;
-        width: 100%;
-        height: 1000px;
-    .slider{
-        width: 900px;
-        margin: 0 auto;
-        padding-top: 100px;
-        margin-bottom:280px ;
-
-        img{
-            width: 200px;
-            height: 300px;
-        }
-    }
-   
-    .box{
-        opacity: 0.8999999761581421;
-        background-color: #020C21;
-        width: 1529px;
-        height: 400px;
-        padding-top: 50px;
-      
-        h3{
-            color: #cfc8c8;
-            font-size: 32px;
-            font-family: "BPG Mrgvlovani", sans-serif;
-            padding-left:490px;
-            margin-bottom: 20px;
-        }
-        p{
-            color: #e8a9a9;
-            font-size: 17px;
-            font-family: "ALK Rounded Nusx Med", sans-serif;
-            width:1070px;
-            text-align: center;
-            padding-left: 400px;
-            margin-bottom: 30px;
-
-        }
-
-        .wrapping{
-            display: flex;
-            width: 1220px;
-            align-items: center;
-            padding-left: 410px;
-            h6{
-                color: #cfc8c8;
-                font-size: 20px;
-                font-family: "ALK Rounded Nusx Med", sans-serif;
-            }
-            h6 i:first-child{
-                color: #eb7575;
-            }
-        }
-        
-
-    }  
-}   
-}
-
-
-
-
-
-
-
-
-
-
-.s-4div{
-    // background-image: url(../images/done3.jpg);
-    width: 1530px;
-    height: 1400px;
-    // background-color: #797c99;
-//    background: rgb(2,0,36);
-//    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.7008053221288515) 89%);
-    //   background: rgb(2,0,36);
-    //   background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
-
-    // background: rgb(2,0,36);
-    // background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
-    
-
-    // background: rgb(0,18,55);
-    // background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 79%);
-    background: rgb(0,18,55);
-    background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 46%);
-    .container{
-        max-width: 1440px;
-        width: 100%;
-        padding-top:100px;
-        padding-left: 250px;
-        margin-bottom: 77px;
-       
-        h2{
-            padding-left: 130px;
-            padding-top: 50px;
-            text-align: center;
-            font-size: 33px;
-            font-family: "BPG Mrgvlovani", sans-serif;
-            color: var(--colors-white, #dabbbb);
-            width:850px;
-        }
-        video{
-          border-radius: 15px;
-          margin-bottom: 70px;
-        }
-       .bigwrap{
-        display: flex;
-        width: 1070px;
-        justify-content: space-between;
-        .wrapping1{
-            display: flex;
-           
-         .myimg{
-            width: 200px;
-            height: 200px;
-            margin-right: 20px;
-            border-radius: 8px;
-         }
-         .myimg1{
-            width: 200px;
-            height: 200px;
-            margin-right: 20px;
-            border-radius: 8px;
-         }
-         .wrapping11{
-            display: flex;
-            flex-direction: column;
-            width: 210px;
-            h4{
-                color: var(--colors-white, #d3a4a4);
-                font-size: 20px;
-                margin-bottom: 30px;
-                font-family: "BPG Mrgvlovani", sans-serif;
-            }
-            h5{
-              font-size: 16px;
-              color: #cfc8c8;
-              font-family: "ALK Rounded Nusx Med", sans-serif;
-            }
-         }
-        }
-       }
-    }
-}
-
-
-
-
-
-
-
-
-
-footer{
-    
-    .footer{
-        background-color: #010714;
-        border: 1px solid black;
-        width: 1530px;   
-        height:140px;
-
-        .container{
-            display: flex;
-            width: 1350px;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 40px;
-            padding-left: 70px;
-        }
-
-        .footerdiv1{
-            display: flex;
-            align-items: center;
-            width: 620px;
-            justify-content: space-between;
-
-            .tbclogo{
-                width: 140px;
-                cursor: pointer;
-                
-            &:hover{
-                width: 145px;
-                cursor: pointer;
-            }
-            }
-            nav{
-                width: 430px;
-                ul{
-                    display: flex;
-                    justify-content: space-between;
-                        
-                a{
-                    color: #cfc8c8;
-                    font-family: "BPG Arial", sans-serif;
-                    &:hover{
-                     color: #3663ab;
-                     font-size: 17px;
-                     font-family: "BPG Arial", sans-serif;
-
-                     
-                  }
-                    
-                 }
-               
-                }
-            }
-        }
-
-
-        .footerdiv2{
-            display: flex;
-            width: 300px;
-            justify-content: space-between;
-
-          a{
-            font-size: 18px;
-            font-family: 'REM', sans-serif;
-            font-family: 'Roboto', sans-serif;
-            h6{
-                color: #dabbbb;
-               
-            }
-
           }
-           
         }
+      }
     }
+  }
 }
 
+.s-3div {
+  background-image: url(../images/done2.png);
+  width: 1530px;
+  height: 1125px;
 
+  .container-s3 {
+    max-width: 1529px;
+    width: 100%;
+    height: 1000px;
+    .slider {
+      width: 900px;
+      margin: 0 auto;
+      padding-top: 100px;
+      margin-bottom: 280px;
 
+      img {
+        width: 200px;
+        height: 300px;
+      }
+    }
 
+    .box {
+      opacity: 0.8999999761581421;
+      background-color: #020c21;
+      width: 1529px;
+      height: 400px;
+      padding-top: 50px;
 
+      h3 {
+        color: #cfc8c8;
+        font-size: 32px;
+        font-family: "BPG Mrgvlovani", sans-serif;
+        padding-left: 490px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #e8a9a9;
+        font-size: 17px;
+        font-family: "ALK Rounded Nusx Med", sans-serif;
+        width: 1070px;
+        text-align: center;
+        padding-left: 400px;
+        margin-bottom: 30px;
+      }
 
+      .wrapping {
+        display: flex;
+        width: 1220px;
+        align-items: center;
+        padding-left: 410px;
+        h6 {
+          color: #cfc8c8;
+          font-size: 20px;
+          font-family: "ALK Rounded Nusx Med", sans-serif;
+        }
+        h6 i:first-child {
+          color: #eb7575;
+        }
+      }
+    }
+  }
+}
 
+.s-4div {
+  // background-image: url(../images/done3.jpg);
+  width: 1530px;
+  height: 1400px;
+  // background-color: #797c99;
+  //    background: rgb(2,0,36);
+  //    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.7008053221288515) 89%);
+  //   background: rgb(2,0,36);
+  //   background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
 
+  // background: rgb(2,0,36);
+  // background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
 
+  // background: rgb(0,18,55);
+  // background: linear-gradient(90deg, rgba(0,18,55,1) 16%, rgba(20,60,130,1) 79%);
+  background: rgb(0, 18, 55);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 18, 55, 1) 16%,
+    rgba(20, 60, 130, 1) 46%
+  );
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 250px;
+    margin-bottom: 77px;
 
+    h2 {
+      padding-left: 130px;
+      padding-top: 50px;
+      text-align: center;
+      font-size: 33px;
+      font-family: "BPG Mrgvlovani", sans-serif;
+      color: var(--colors-white, #dabbbb);
+      width: 850px;
+    }
+    video {
+      border-radius: 15px;
+      margin-bottom: 70px;
+    }
+    .bigwrap {
+      display: flex;
+      width: 1070px;
+      justify-content: space-between;
+      .wrapping1 {
+        display: flex;
 
+        .myimg {
+          width: 200px;
+          height: 200px;
+          margin-right: 20px;
+          border-radius: 8px;
+        }
+        .myimg1 {
+          width: 200px;
+          height: 200px;
+          margin-right: 20px;
+          border-radius: 8px;
+        }
+        .wrapping11 {
+          display: flex;
+          flex-direction: column;
+          width: 210px;
+          h4 {
+            color: var(--colors-white, #d3a4a4);
+            font-size: 20px;
+            margin-bottom: 30px;
+            font-family: "BPG Mrgvlovani", sans-serif;
+          }
+          h5 {
+            font-size: 16px;
+            color: #cfc8c8;
+            font-family: "ALK Rounded Nusx Med", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  .footer {
+    background-color: #010714;
+    border: 1px solid black;
+    width: 1530px;
+    height: 140px;
+
+    .container {
+      display: flex;
+      width: 1350px;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 40px;
+      padding-left: 70px;
+    }
+
+    .footerdiv1 {
+      display: flex;
+      align-items: center;
+      width: 620px;
+      justify-content: space-between;
+
+      .tbclogo {
+        width: 140px;
+        cursor: pointer;
+
+        &:hover {
+          width: 145px;
+          cursor: pointer;
+        }
+      }
+      nav {
+        width: 430px;
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          a {
+            color: #cfc8c8;
+            font-family: "BPG Arial", sans-serif;
+            &:hover {
+              color: #3663ab;
+              font-size: 17px;
+              font-family: "BPG Arial", sans-serif;
+            }
+          }
+        }
+      }
+    }
+
+    .footerdiv2 {
+      display: flex;
+      width: 300px;
+      justify-content: space-between;
+
+      a {
+        font-size: 18px;
+        font-family: "REM", sans-serif;
+        font-family: "Roboto", sans-serif;
+        h6 {
+          color: #dabbbb;
+        }
+      }
+    }
+  }
+}
 
 // viwyeb meore gverds!!!!!!!!
 
-.all{
-    .s-5div{
-        .container{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            max-width: 700px;
-            height: 240px;
-            padding-top: 150px;
-           
+.all1 {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  width: 1530px;
+  height: 700px;
+  // background: rgb(2,0,36);
+  // background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
 
-            h2{
-                font-size: 40px;
-                color:#cfc8c8;
-                font-family: "BPG Mrgvlovani", sans-serif;
+  // background: rgb(132,172,254);
+  // background: linear-gradient(90deg, rgba(132,172,254,1) 14%, rgba(22,55,114,1) 79%);
+  background: rgb(132, 172, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 172, 254, 1) 14%,
+    rgba(22, 55, 114, 1) 59%
+  );
 
-            }
-            p{
-                font-size: 20px;
-                color: #6b6666;
-            }
-        }
+  background-image: url(../images/background.webp);
+  .container {
+    display: flex;
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .tbclogo {
+      width: 150px;
+      cursor: pointer;
+
+      &:hover {
+        width: 155px;
+        cursor: pointer;
+      }
     }
+
+    nav {
+      max-width: 550px;
+      width: 100%;
+      margin-right: 400px;
+      ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          cursor: pointer;
+
+          a {
+            font-size: 18px;
+            color: #ecdede;
+            font-family: "BPG Arial", sans-serif;
+            &:hover {
+              color: #8699c1;
+              font-family: "BPG Arial", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .s-5div {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 800px;
+      height: 260px;
+      padding-top: 150px;
+
+      h2 {
+        font-size: 40px;
+        color: #4f4a4a;
+        font-family: "BPG Mrgvlovani", sans-serif;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        color: #4b4545;
+        width: 700px;
+        text-align: center;
+        font-family: "ALK Rounded Nusx Med", sans-serif;
+      }
+    }
+  }
 }
-
-
 
 // mesame gverdi
 
-.all{
-    .s-6div{
-        .container{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            max-width: 700px;
-            height: 240px;
-            padding-top: 150px;
-           
+.all1 {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  width: 1530px;
+  height: 700px;
+  // background: rgb(2,0,36);
+  // background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
 
-            h2{
-                font-size: 40px;
-                color:#cfc8c8;
-                font-family: "BPG Mrgvlovani", sans-serif;
+  // background: rgb(132,172,254);
+  // background: linear-gradient(90deg, rgba(132,172,254,1) 14%, rgba(22,55,114,1) 79%);
+  background: rgb(132, 172, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 172, 254, 1) 14%,
+    rgba(22, 55, 114, 1) 59%
+  );
 
-            }
-            p{
-                font-size: 20px;
-                color: #6b6666;
-            }
-        }
+  background-image: url(../images/background.webp);
+  .container {
+    display: flex;
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .tbclogo {
+      width: 150px;
+      cursor: pointer;
+
+      &:hover {
+        width: 155px;
+        cursor: pointer;
+      }
     }
+
+    nav {
+      max-width: 550px;
+      width: 100%;
+      margin-right: 400px;
+      ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          cursor: pointer;
+
+          a {
+            font-size: 18px;
+            color: #ecdede;
+            font-family: "BPG Arial", sans-serif;
+            &:hover {
+              color: #8699c1;
+              font-family: "BPG Arial", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .s-6div {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 700px;
+      height: 260px;
+      padding-top: 150px;
+
+      h2 {
+        font-size: 40px;
+        color: #4f4a4a;
+        font-family: "BPG Mrgvlovani", sans-serif;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        color: #4b4545;
+        font-family: "ALK Rounded Nusx Med", sans-serif;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// meotxe gverdi
+
+.all1 {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  width: 1530px;
+  height: 700px;
+  // background: rgb(2,0,36);
+  // background: linear-gradient(360deg, rgba(2,0,36,1) 18%, rgba(9,15,121,0.7008053221288515) 89%);
+
+  // background: rgb(132,172,254);
+  // background: linear-gradient(90deg, rgba(132,172,254,1) 14%, rgba(22,55,114,1) 79%);
+  background: rgb(132, 172, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 172, 254, 1) 14%,
+    rgba(22, 55, 114, 1) 59%
+  );
+
+  background-image: url(../images/background.webp);
+  .container {
+    display: flex;
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .tbclogo {
+      width: 150px;
+      cursor: pointer;
+
+      &:hover {
+        width: 155px;
+        cursor: pointer;
+      }
+    }
+
+    nav {
+      max-width: 550px;
+      width: 100%;
+      margin-right: 400px;
+      ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          cursor: pointer;
+
+          a {
+            font-size: 18px;
+            color: #ecdede;
+            font-family: "BPG Arial", sans-serif;
+            &:hover {
+              color: #8699c1;
+              font-family: "BPG Arial", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .s-7div {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 700px;
+      height: 280px;
+      padding-top: 150px;
+
+      h2 {
+        font-size: 40px;
+        color: #4f4a4a;
+        font-family: "BPG Mrgvlovani", sans-serif;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+        color: #4b4545;
+        font-family: "ALK Rounded Nusx Med", sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+
+      .justwrap{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        justify-content: space-between;
+
+       a{
+        color: #3b3a3a;
+       }
+      }
+    }
+  }
 }

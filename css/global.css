@@ -128,7 +128,7 @@ a {
   padding-top: 140px;
   padding-left: 100px;
   padding-bottom: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-indent: 20px;
 }
 .all input[type=button] {
@@ -187,7 +187,7 @@ a {
   color: red;
 }
 .all .headerdiv h5 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }
 
@@ -245,7 +245,7 @@ a {
 .s-2div .container-s2 .wrap1 .wrap11 h3 {
   font-size: 35px;
   font-family: "BPG Mrgvlovani", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 1px;
 }
 .s-2div .container-s2 .wrap1 .wrap11 p {
@@ -296,7 +296,7 @@ a {
 }
 .s-3div .container-s3 .box {
   opacity: 0.8999999762;
-  background-color: #020C21;
+  background-color: #020c21;
   width: 1529px;
   height: 400px;
   padding-top: 50px;
@@ -489,7 +489,65 @@ footer .footer .footerdiv2 a h6 {
   color: #dabbbb;
 }
 
-.all .s-5div .container {
+.all1 {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  width: 1530px;
+  height: 700px;
+  background: rgb(132, 172, 254);
+  background: -webkit-gradient(linear, left top, right top, color-stop(14%, rgb(132, 172, 254)), color-stop(59%, rgb(22, 55, 114)));
+  background: linear-gradient(90deg, rgb(132, 172, 254) 14%, rgb(22, 55, 114) 59%);
+  background-image: url(../images/background.webp);
+}
+.all1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.all1 .container .tbclogo {
+  width: 150px;
+  cursor: pointer;
+}
+.all1 .container .tbclogo:hover {
+  width: 155px;
+  cursor: pointer;
+}
+.all1 .container nav {
+  max-width: 550px;
+  width: 100%;
+  margin-right: 400px;
+}
+.all1 .container nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.all1 .container nav ul li {
+  cursor: pointer;
+}
+.all1 .container nav ul li a {
+  font-size: 18px;
+  color: #ecdede;
+  font-family: "BPG Arial", sans-serif;
+}
+.all1 .container nav ul li a:hover {
+  color: #8699c1;
+  font-family: "BPG Arial", sans-serif;
+}
+.all1 .s-5div .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,21 +558,83 @@ footer .footer .footerdiv2 a h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 700px;
-  height: 240px;
+  max-width: 800px;
+  height: 260px;
   padding-top: 150px;
 }
-.all .s-5div .container h2 {
+.all1 .s-5div .container h2 {
   font-size: 40px;
-  color: #cfc8c8;
+  color: #4f4a4a;
   font-family: "BPG Mrgvlovani", sans-serif;
+  margin-bottom: 20px;
 }
-.all .s-5div .container p {
+.all1 .s-5div .container p {
   font-size: 20px;
-  color: #6b6666;
+  color: #4b4545;
+  width: 700px;
+  text-align: center;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
 }
 
-.all .s-6div .container {
+.all1 {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  width: 1530px;
+  height: 700px;
+  background: rgb(132, 172, 254);
+  background: -webkit-gradient(linear, left top, right top, color-stop(14%, rgb(132, 172, 254)), color-stop(59%, rgb(22, 55, 114)));
+  background: linear-gradient(90deg, rgb(132, 172, 254) 14%, rgb(22, 55, 114) 59%);
+  background-image: url(../images/background.webp);
+}
+.all1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.all1 .container .tbclogo {
+  width: 150px;
+  cursor: pointer;
+}
+.all1 .container .tbclogo:hover {
+  width: 155px;
+  cursor: pointer;
+}
+.all1 .container nav {
+  max-width: 550px;
+  width: 100%;
+  margin-right: 400px;
+}
+.all1 .container nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.all1 .container nav ul li {
+  cursor: pointer;
+}
+.all1 .container nav ul li a {
+  font-size: 18px;
+  color: #ecdede;
+  font-family: "BPG Arial", sans-serif;
+}
+.all1 .container nav ul li a:hover {
+  color: #8699c1;
+  font-family: "BPG Arial", sans-serif;
+}
+.all1 .s-6div .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -526,15 +646,120 @@ footer .footer .footerdiv2 a h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 700px;
-  height: 240px;
+  height: 260px;
   padding-top: 150px;
 }
-.all .s-6div .container h2 {
+.all1 .s-6div .container h2 {
   font-size: 40px;
-  color: #cfc8c8;
+  color: #4f4a4a;
   font-family: "BPG Mrgvlovani", sans-serif;
+  margin-bottom: 20px;
 }
-.all .s-6div .container p {
+.all1 .s-6div .container p {
   font-size: 20px;
-  color: #6b6666;
+  color: #4b4545;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  text-align: center;
+}
+
+.all1 {
+  padding-top: 48px;
+  background-color: rgb(40, 37, 37);
+  width: 1530px;
+  height: 700px;
+  background: rgb(132, 172, 254);
+  background: -webkit-gradient(linear, left top, right top, color-stop(14%, rgb(132, 172, 254)), color-stop(59%, rgb(22, 55, 114)));
+  background: linear-gradient(90deg, rgb(132, 172, 254) 14%, rgb(22, 55, 114) 59%);
+  background-image: url(../images/background.webp);
+}
+.all1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.all1 .container .tbclogo {
+  width: 150px;
+  cursor: pointer;
+}
+.all1 .container .tbclogo:hover {
+  width: 155px;
+  cursor: pointer;
+}
+.all1 .container nav {
+  max-width: 550px;
+  width: 100%;
+  margin-right: 400px;
+}
+.all1 .container nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.all1 .container nav ul li {
+  cursor: pointer;
+}
+.all1 .container nav ul li a {
+  font-size: 18px;
+  color: #ecdede;
+  font-family: "BPG Arial", sans-serif;
+}
+.all1 .container nav ul li a:hover {
+  color: #8699c1;
+  font-family: "BPG Arial", sans-serif;
+}
+.all1 .s-7div .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px;
+  height: 280px;
+  padding-top: 150px;
+}
+.all1 .s-7div .container h2 {
+  font-size: 40px;
+  color: #4f4a4a;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  margin-bottom: 20px;
+}
+.all1 .s-7div .container p {
+  font-size: 20px;
+  color: #4b4545;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.all1 .s-7div .container .justwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.all1 .s-7div .container .justwrap a {
+  color: #3b3a3a;
 }/*# sourceMappingURL=global.css.map */
