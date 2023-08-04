@@ -285,30 +285,59 @@ a {
   height: 1000px;
 }
 .s-3div .container-s3 .slider {
+  position: relative;
   width: 900px;
   margin: 0 auto;
   padding-top: 100px;
-  margin-bottom: 280px;
+  margin-bottom: 320px;
 }
-.s-3div .container-s3 .slider img {
+.s-3div .container-s3 .slider .left-arrow {
+  position: absolute;
+  left: -10%;
+  top: 55%;
+  color: #c75f71;
+  width: 50px;
+  height: 50px;
+  background-color: #cfc8c8;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.s-3div .container-s3 .slider .right-arrow {
+  position: absolute;
+  left: 110%;
+  top: 55%;
+  color: #c75f71;
+  width: 50px;
+  height: 50px;
+  background-color: #cfc8c8;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.s-3div .container-s3 img {
   width: 200px;
   height: 300px;
 }
-.s-3div .container-s3 .box {
+.s-3div .box {
   opacity: 0.8999999762;
   background-color: #020c21;
   width: 1529px;
   height: 400px;
   padding-top: 50px;
 }
-.s-3div .container-s3 .box h3 {
+.s-3div .box h3 {
   color: #cfc8c8;
   font-size: 32px;
   font-family: "BPG Mrgvlovani", sans-serif;
   padding-left: 490px;
   margin-bottom: 20px;
 }
-.s-3div .container-s3 .box p {
+.s-3div .box p {
   color: #e8a9a9;
   font-size: 17px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
@@ -317,7 +346,7 @@ a {
   padding-left: 400px;
   margin-bottom: 30px;
 }
-.s-3div .container-s3 .box .wrapping {
+.s-3div .box .wrapping {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,12 +356,12 @@ a {
           align-items: center;
   padding-left: 410px;
 }
-.s-3div .container-s3 .box .wrapping h6 {
+.s-3div .box .wrapping h6 {
   color: #cfc8c8;
   font-size: 20px;
   font-family: "ALK Rounded Nusx Med", sans-serif;
 }
-.s-3div .container-s3 .box .wrapping h6 i:first-child {
+.s-3div .box .wrapping h6 i:first-child {
   color: #eb7575;
 }
 

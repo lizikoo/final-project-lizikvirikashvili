@@ -201,54 +201,85 @@
     width: 100%;
     height: 1000px;
     .slider {
+      position: relative;
       width: 900px;
       margin: 0 auto;
       padding-top: 100px;
-      margin-bottom: 280px;
+      margin-bottom: 320px;
 
-      img {
-        width: 200px;
-        height: 300px;
+      .left-arrow {
+        position: absolute;
+        left: -10%;
+        top: 55%;
+        color: #c75f71;
+        width: 50px;
+        height: 50px;
+        background-color: #cfc8c8;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .right-arrow {
+        position: absolute;
+        left: 110%;
+        top: 55%;
+        color: #c75f71;
+        width: 50px;
+        height: 50px;
+        background-color: #cfc8c8;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        display: inline-block;
+        cursor: pointer;
       }
     }
 
-    .box {
-      opacity: 0.8999999761581421;
-      background-color: #020c21;
-      width: 1529px;
-      height: 400px;
-      padding-top: 50px;
+    img {
+      width: 200px;
+      height: 300px;
+    }
+  }
 
-      h3 {
+  .box {
+    opacity: 0.8999999761581421;
+    background-color: #020c21;
+    width: 1529px;
+    height: 400px;
+    padding-top: 50px;
+
+    h3 {
+      color: #cfc8c8;
+      font-size: 32px;
+      font-family: "BPG Mrgvlovani", sans-serif;
+      padding-left: 490px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #e8a9a9;
+      font-size: 17px;
+      font-family: "ALK Rounded Nusx Med", sans-serif;
+      width: 1070px;
+      text-align: center;
+      padding-left: 400px;
+      margin-bottom: 30px;
+    }
+
+    .wrapping {
+      display: flex;
+      width: 1220px;
+      align-items: center;
+      padding-left: 410px;
+      h6 {
         color: #cfc8c8;
-        font-size: 32px;
-        font-family: "BPG Mrgvlovani", sans-serif;
-        padding-left: 490px;
-        margin-bottom: 20px;
-      }
-      p {
-        color: #e8a9a9;
-        font-size: 17px;
+        font-size: 20px;
         font-family: "ALK Rounded Nusx Med", sans-serif;
-        width: 1070px;
-        text-align: center;
-        padding-left: 400px;
-        margin-bottom: 30px;
       }
-
-      .wrapping {
-        display: flex;
-        width: 1220px;
-        align-items: center;
-        padding-left: 410px;
-        h6 {
-          color: #cfc8c8;
-          font-size: 20px;
-          font-family: "ALK Rounded Nusx Med", sans-serif;
-        }
-        h6 i:first-child {
-          color: #eb7575;
-        }
+      h6 i:first-child {
+        color: #eb7575;
       }
     }
   }
@@ -668,16 +699,15 @@ footer {
         margin-bottom: 20px;
       }
 
-
-      .justwrap{
+      .justwrap {
         display: flex;
         align-items: center;
         width: 300px;
         justify-content: space-between;
 
-       a{
-        color: #3b3a3a;
-       }
+        a {
+          color: #3b3a3a;
+        }
       }
     }
   }
