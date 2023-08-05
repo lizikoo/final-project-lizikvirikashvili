@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 .all {
@@ -30,6 +30,7 @@ html{
       max-width: 550px;
       width: 100%;
       margin-right: 400px;
+
       ul {
         width: 100%;
         display: flex;
@@ -40,6 +41,7 @@ html{
 
           a {
             color: #cfc8c8;
+            transition: 0.4s;
             font-family: "BPG Arial", sans-serif;
             &:hover {
               color: #3663ab;
@@ -171,6 +173,7 @@ html{
         input {
           border-radius: 32px;
           background-color: #f4c9d0;
+          transition: 0.2s;
           width: 210px;
           height: 50px;
           color: black;
@@ -490,6 +493,7 @@ footer {
             font-size: 18px;
             color: #ecdede;
             font-family: "BPG Arial", sans-serif;
+            transition: 0.4s;
             &:hover {
               color: #8699c1;
               font-family: "BPG Arial", sans-serif;

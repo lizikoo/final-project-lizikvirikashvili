@@ -113,6 +113,8 @@ html {
 }
 .all .container nav ul li a {
   color: #cfc8c8;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   font-family: "BPG Arial", sans-serif;
 }
 .all .container nav ul li a:hover {
@@ -260,6 +262,8 @@ html {
 .s-2div .container-s2 .wrap1 .wrap11 input {
   border-radius: 32px;
   background-color: #f4c9d0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   width: 210px;
   height: 50px;
   color: black;
@@ -575,6 +579,8 @@ footer .footer .footerdiv2 a h6 {
   font-size: 18px;
   color: #ecdede;
   font-family: "BPG Arial", sans-serif;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .all1 .container nav ul li a:hover {
   color: #8699c1;
