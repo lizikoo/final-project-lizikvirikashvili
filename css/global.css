@@ -61,6 +61,10 @@ a {
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .all {
   padding-top: 48px;
   background-color: rgb(40, 37, 37);
